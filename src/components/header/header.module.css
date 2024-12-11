@@ -1,0 +1,39 @@
+.Header {
+    backdrop-filter: blur(20px); /* Efeito embaçado */
+    background-color: rgba(0, 0, 0, 0.212); /* Transparência */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6rem; /* Espaçamento */
+    position: fixed; /* Fixar no topo */
+    top: 0; /* Garante que fique colado no topo */
+    width: 90%; /* Para cobrir toda a largura da tela */
+    z-index: 1000; /* Garante que o header fique sobre outros elementos */
+}
+
+/* Estilo para a imagem à esquerda */
+.Header img {
+    width: 13rem;
+    height: auto;
+}
+
+/* Estilo para o Link à direita */
+.Header .a {
+    color: #FFFFFF; /* Links brancos */
+    background-color: #8C44FF; /* Fundo roxo */
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid #8C44FF; /* Borda roxa */
+    transition: all 0.3s ease-in-out; /* Transição suave */
+    font-family: "Rajdhani", "Rajdhani Placeholder", sans-serif;
+    font-weight: 700;
+    transform: translateX(-4rem);
+}
+
+/* Efeito hover para inverter as cores */
+.Header .a:hover {
+    background-color: #FFFFFF; /* Fundo branco */
+    color: #8C44FF; /* Letras roxas */
+    border: 2px solid #8C44FF; /* Mantém a borda roxa */
+}

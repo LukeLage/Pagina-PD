@@ -1,0 +1,78 @@
+.dropdown {
+    margin-bottom: 2rem;
+    border: 2px solid #8c44ff;
+    border-radius: 10px;
+  }
+  
+  .dropdownButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e001e;
+    color: #8c44ff;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .arrow {
+    transition: transform 0.3s ease-in-out;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .rotateArrow {
+    transform: rotate(180deg);
+  }
+  
+  .dropdownMenu {
+    list-style-type: none;
+    padding: 1rem;
+    background-color: #151515;
+    border-top: 2px solid #8c44ff;
+    border-radius: 0 0 10px 10px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .itemContainer {
+    margin-bottom: 2rem;
+  }
+  
+  .itemHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  
+  .hours {
+    font-size: 1.2rem;
+    color: #8c44ff;
+  }
+  
+  .itemContent {
+    color: #bbbbbb;
+    font-size: 1rem;
+  }
+  
+  .itemContent p {
+    margin: 0.5rem 0;
+  }
+  
+  .highlight {
+    font-size: 1.2rem;
+    color: #8c44ff;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,35 @@
+.topic {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ffffff;
+    margin: 1rem;
+    padding: 1rem 1.5rem;
+    background-color: rgba(140, 68, 255, 0.2); /* Fundo levemente roxo */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+    transition: all 0.3s ease, transform 0.3s ease; /* Transição suave */
+}
+
+.topic span {
+    width: 28.96px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #8C44FF;
+    margin-right: 1rem; /* Espaçamento entre a seta e o texto */
+}
+
+.topic:hover {
+    background-color: #8C44FF; /* Fundo fica roxo no hover */
+    transform: translateY(-5px); /* Efeito de elevação no hover */
+}
+.topic:hover span {
+ color: #ffffff; /* Fundo fica roxo no hover */}

@@ -1,0 +1,40 @@
+h1, 
+p, 
+h2, 
+h3{
+    color: white;
+}
+
+.highlight-blue{
+    color: blue;
+}
+
+.highlight-purple {
+    color:#5719a8;
+    border: 1px solid #5719a8;
+    padding: 10px;
+}
+
+.bold-purple{
+    color: #5719a8;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.contact-button{
+    background-color: #6537a1;
+}
+
+.bold-blue{
+    color: blue;
+}
+
+.bold-yellow{
+    color: yellow;
+}
+
+.italic{
+    font-style: italic;
+}

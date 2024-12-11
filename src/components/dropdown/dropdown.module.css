@@ -1,0 +1,103 @@
+/* dropdown.module.css */
+
+.dropdown {
+    position: relative;
+    display: block;
+    width: 100%; /* Faz o dropdown ocupar toda a largura da tela */
+  }
+  
+  .dropdownButton {
+    background-color: #0e001e;
+    color: #8C44FF;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border: 2px solid #8C44FF;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .arrow {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out; /* Suave rotação ao abrir/fechar */
+  }
+  
+  .rotateArrow {
+    transform: rotate(180deg); /* Rotaciona a seta ao abrir */
+  }
+  
+  .dropdownMenu {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 1rem;
+    background-color: #151515;
+    border: 2px solid #8C44FF;
+    border-radius: 10px;
+    padding: 1rem;
+    list-style: none;
+  }
+  
+  .dropdownMenu li {
+    color: #ffffff;
+    padding: 0.8rem 0;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dropdownMenu li:last-child {
+    border-bottom: none;
+  }
+  
+  .dropdownMenu li:hover {
+    color: #8C44FF;
+    cursor: default;
+  }
+  
+  .subtopic {
+    font-size: 1.2rem;
+    padding: 0.8rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .subtopicTitle {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #8c44ff;
+  }
+  
+  .subtopicsList {
+    margin-left: 2rem;
+    list-style-type: none;
+  }
+  
+  .hours {
+    color: #8C44FF;
+    font-size: 1rem;
+  }
+  
+  .highlight{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    color: #8C44FF;
+    padding: 0.5rem 1rem;
+    border: 2px solid #8C44FF; /* Borda com cor #0094FF */
+    position: relative; /* Necessário para ajustar o padding corretamente */
+    z-index: 2; /* Garante que o título esteja sobre o gradiente */
+  }
