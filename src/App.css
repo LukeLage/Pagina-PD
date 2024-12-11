@@ -1,3 +1,43 @@
+.conteiner{
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Para telas maiores (desktop) */
+@media (min-width: 1024px) {
+    .conteiner {
+        max-width: 1200px;
+    }
+}
+
+/* Para tablets */
+@media (max-width: 1024px) {
+    .conteiner {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+/* Para celulares */
+@media (max-width: 768px) {
+    .conteiner {
+        width: 95%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
 h1, 
 p, 
 h2, 
@@ -37,4 +77,16 @@ h1{
 
 .italic{
     font-style: italic;
+}
+
+li{ 
+    color: white;
+}
+
+.instagram{
+    color: white;
+}
+
+.whatsapp{
+    color: white;
 }
